@@ -12,9 +12,12 @@ Add the Homebrew tap:
 ```bash
 $ brew tap watsonbox/cmu-sphinx
 ```
+
+You'll see some warnings as these formulae conflict with those in the main reponitory, but that's fine.
+
 Install the libraries:
 
 ```bash
-$ brew install watsonbox/cmu-sphinx/cmu-sphinxbase
-$ brew install watsonbox/cmu-sphinx/cmu-pocketsphinx
+$ brew install --HEAD watsonbox/cmu-sphinx/cmu-sphinxbase
+$ brew install --HEAD watsonbox/cmu-sphinx/cmu-pocketsphinx
 ```
