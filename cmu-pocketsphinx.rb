@@ -15,6 +15,6 @@ class CmuPocketsphinx < Formula
     system "./autogen.sh"
     system "./configure", "--disable-dependency-tracking",
                           "--prefix=#{prefix}"
-    system "make install"
+    system "make", "install"
   end
 end
