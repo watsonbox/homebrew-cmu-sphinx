@@ -32,3 +32,8 @@ You can test continuous recognition as follows:
 ```bash
 $ pocketsphinx_continuous -inmic yes
 ```
+
+
+## Troubleshooting
+
+Please be aware that these are development versions of CMU Sphinx packages and as such are expected to be unstable. You can submit bugs [here](https://sourceforge.net/p/cmusphinx/bugs/).
