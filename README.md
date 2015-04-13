@@ -39,3 +39,12 @@ $ pocketsphinx_continuous -inmic yes
 ## Troubleshooting
 
 Please be aware that these are development versions of CMU Sphinx packages and as such are expected to be unstable. You can submit bugs [here](https://sourceforge.net/p/cmusphinx/bugs/).
+
+**syntax error near unexpected token no-define' ./configure: line 2366:AM_INIT_AUTOMAKE(no-define foreign)'**
+
+A few people seem to be experiencing this error (as descibed in #2). The solution seems to be to run the following and retry:
+
+```bash
+$ brew doctor
+$ brew prune
+```
