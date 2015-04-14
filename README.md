@@ -35,6 +35,16 @@ You can test continuous recognition as follows:
 $ pocketsphinx_continuous -inmic yes
 ```
 
+### Re-installing
+
+To re-install, uninstall before following the instructions above:
+
+```bash
+$ brew uninstall cmu-sphinxbase
+$ brew uninstall cmu-sphinxtrain
+$ brew uninstall cmu-pocketsphinx
+```
+
 
 ## Troubleshooting
 
